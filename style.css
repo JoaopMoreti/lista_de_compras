@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+}
+
+header{
+  background-color: aqua;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+main{
+  padding: 30px 50px;
+}
+
+.title{
+  text-align: center;
+
+}
+
+.card{
+  background-color: #fff;
+  border: 3px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 790px;
+}
+
+.inputs{
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+
+}
+
+
+.lineInput{
+  display: grid;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+input{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  outline: 0;
+}
+
+#quantidadediv{
+  width: 50px;
+}
+
+#quantidade{
+  width: 50px;
+}
+
+
+.buttons{
+  position: relative;
+  left: 100px;
+  width: 50px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+button{
+  border: 0px;
+  padding: 10px;
+  outline: 0;
+  background-color: blue;
+  color: #48ff00;
+  border-radius: 3px;
+  font-weight: bold;
+  transition: all ease 0.3s;
+}
+
+button:hover{
+  background-color: rgb(42, 165, 134);
+}
+
+.content{
+  margin-top: 15px;
+}
+
+table{
+  border-collapse: collapse;
+  border: 1px solid #0004ff;
+  width: 100%;
+}
+
+table th{
+  background-color: rgb(107, 165, 165);
+}
+
+table td img{
+  width: 22px;
+}
+
+.center{
+  text-align: center;
+}
+
+.icones{
+  cursor: pointer;
+}
